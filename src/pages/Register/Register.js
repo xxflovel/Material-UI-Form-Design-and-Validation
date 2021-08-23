@@ -1,5 +1,5 @@
 import React from 'react'
-import EmployeeForm from "./EmployeeForm";
+import RegistratinForm from "./RegistrationForm";
 import PageHeader from "../../components/PageHeader";
 import PeopleOutlineTwoToneIcon from '@material-ui/icons/PeopleOutlineTwoTone';
 import { Paper,makeStyles } from '@material-ui/core';
@@ -23,7 +23,7 @@ export default function Employees() {
                 icon={<PeopleOutlineTwoToneIcon fontSize="large" />}
             />
             <Paper className={classes.pageContent}>
-                <EmployeeForm />
+                <RegistratinForm />
             </Paper>
         </>
     )
